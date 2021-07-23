@@ -18,5 +18,5 @@ df = pd.read_csv("./ca-covid.csv")
 df.drop('state', axis=1, inplace=True)
 df.set_index('date', inplace=True)
 df['ratio'] = df['deaths']/df['cases']
-print(df[['date', 'ratio']])
-# print(df[(df['ratio'].max()*100)])
+racio = df['ratio'].max()
+print(df[(df['ratio'] == racio)])

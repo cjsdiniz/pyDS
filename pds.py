@@ -14,6 +14,7 @@ print("\n", df)
 # 2    24      176
 # 3    42      184
 
+# 2
 print("\n* #2 *")
 x = {
     'a': [1, 2],
@@ -28,7 +29,7 @@ print("\n", df)
 # 0  1  3  5
 # 1  2  4  6
 
-
+# 3
 print("\n* #3 *")
 
 data = {
@@ -50,11 +51,14 @@ print("\n", df.loc["Bob"])
 # ages        18
 # heights    180
 # Name: Bob, dtype: int64
+
+#4 - Indexing
 print("\n* #4 - Indexing *")
 
 print("\n", df["ages"])
 print("\n", df[["ages", "heights"]])
 
+#5 - slicing-iloc
 print("\n* #5 - slicing-iloc *")
 data = {
     'ages': [14, 18, 24, 42],
@@ -70,7 +74,8 @@ print("\n", df.iloc[:3])
 # rows 2 to 3
 print("\n", df.iloc[1:3])
 
-print("\n* #6 - slicing-Conditions *")
+# 6 - slicing: Conditions
+print("\n* #6 - slicing: Conditions *")
 print("\n", df[(df['ages'] > 18) & (df['heights'] > 180)])
 
 print("\n* #6 - Reading data *")
@@ -80,19 +85,23 @@ df = pd.read_csv("https://www.sololearn.com/uploads/ca-covid.csv")
 # Similarly, you can get the last rows using the tail() function.
 print("\n", df.head(50))  # primeiras x linhas
 
+# 6 - Reading data-Info
 print("\n* #6 - Reading data-Info *")
 
 print("\n", df.info)
 
+# 7 - Reading data-Index Columns
 print("\n* #7 - Reading data-Index Columns *")
 
 df.set_index('date', inplace=True)
 print("\n", df.info)
 
+# 8 - Reading data-Dropping Columns
 print("\n* #8 - Reading data-Dropping Columns *")
 df.drop('state', axis=1, inplace=True)
 print("\n", df.info)
 
+# 9 - Creating Columns
 print("\n* #9 - Creating Columns *")
 df = pd.read_csv("https://www.sololearn.com/uploads/ca-covid.csv")
 df.drop('state', axis=1, inplace=True)
