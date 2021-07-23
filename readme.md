@@ -1,4 +1,4 @@
-# Python for Data Science
+# Python for Data Science :rocket:
 
 ## Examples
 
@@ -14,13 +14,16 @@
 
 ### Pandas & Plots
 
-    1 Plots:
-    1 Matplotlib.py
-    1 Pandas_Matplotlib.py
-    1 Pie Chart.py
-    1 Scatter Plot.py
+_Plots_
+
+1. Matplotlib.py
+1. Pandas_Matplotlib.py
+1. Pie Chart.py
+1. Scatter Plot.py
 
 ### Labs
 
 - COVID Data Analysis.py
 - VaccinationsDataset.py
+
+:sparkles:
