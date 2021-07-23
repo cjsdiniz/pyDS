@@ -1,18 +1,18 @@
 # Python for Data Science :rocket:
 
-## Examples
+## :sparkles: Examples
 
 **Pandas & Matplotlib**
 
-### NumPy
+### :sparkles: NumPy
 
 - np.py
 
-### Pandas
+### :sparkles: Pandas
 
 - pds.py
 
-### Pandas & Plots
+### :sparkles: Pandas & Plots
 
 _Plots_
 
@@ -21,9 +21,7 @@ _Plots_
 1. Pie Chart.py
 1. Scatter Plot.py
 
-### Labs
+### :sparkles: Labs
 
 - COVID Data Analysis.py
 - VaccinationsDataset.py
-
-:sparkles:
